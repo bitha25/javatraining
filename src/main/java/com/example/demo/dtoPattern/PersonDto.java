@@ -16,4 +16,5 @@ public class PersonDto {
     private String departmentName;
     @JsonProperty("department_id")
     private long departmentId;
+    private long age;
 }
